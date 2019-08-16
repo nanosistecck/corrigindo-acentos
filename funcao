@@ -1,0 +1,4 @@
+$arrayA = array("Á","É","Í","Ó","Ú","é","í","ó","ú","Â","Ê","Ô","â","ê","ô","À","à","Ü","ü","Ç","ç","Ñ","ñ","Ã","Õ","ã","õ");
+$arrayB = array("&Aacute;","&Egrave;","&Iacute;","&Oacute;","&Uacute;","&eacute;","&iacute;","&oacute;","&uacute;","&Acirc;","&Ecirc;","&Ocirc;","&acirc;","&ecirc;","&ocirc;","&Agrave;","&agrave;","&Uuml;","&uuml;","&Ccedil;","&ccedil;","&Ntilde;","&ntilde;","&Atilde;","&Otilde;","&atilde;","&otilde;");
+
+$TITULOF = str_replace($arrayA,$arrayB ,$TITULOF);
